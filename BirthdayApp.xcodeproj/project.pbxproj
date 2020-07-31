@@ -10,10 +10,19 @@
 		5574309524D43CC200C191E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574309424D43CC200C191E5 /* AppDelegate.swift */; };
 		5574309724D43CC200C191E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574309624D43CC200C191E5 /* SceneDelegate.swift */; };
 		5574309A24D43CC200C191E5 /* BirthdayApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5574309824D43CC200C191E5 /* BirthdayApp.xcdatamodeld */; };
-		5574309C24D43CC200C191E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574309B24D43CC200C191E5 /* ContentView.swift */; };
+		5574309C24D43CC200C191E5 /* BirthdayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574309B24D43CC200C191E5 /* BirthdayList.swift */; };
 		5574309E24D43CC300C191E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5574309D24D43CC300C191E5 /* Assets.xcassets */; };
 		557430A124D43CC300C191E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557430A024D43CC300C191E5 /* Preview Assets.xcassets */; };
 		557430A424D43CC300C191E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557430A224D43CC300C191E5 /* LaunchScreen.storyboard */; };
+		557430B324D43FE200C191E5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430B224D43FE200C191E5 /* DataManager.swift */; };
+		557430B524D443DB00C191E5 /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430B424D443DB00C191E5 /* BirthdayViewModel.swift */; };
+		557430B724D446EB00C191E5 /* BirthdayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430B624D446EB00C191E5 /* BirthdayListViewModel.swift */; };
+		557430B924D44DAE00C191E5 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430B824D44DAE00C191E5 /* BirthdayCell.swift */; };
+		557430BB24D458A100C191E5 /* AddNewBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430BA24D458A100C191E5 /* AddNewBirthdayViewModel.swift */; };
+		557430BD24D458C400C191E5 /* AddNewBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430BC24D458C400C191E5 /* AddNewBirthdayView.swift */; };
+		557430BF24D4591B00C191E5 /* DismissKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430BE24D4591B00C191E5 /* DismissKeyboardHelper.swift */; };
+		557430C124D4593D00C191E5 /* UpdateBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430C024D4593D00C191E5 /* UpdateBirthdayView.swift */; };
+		557430C324D4595600C191E5 /* UpdateBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557430C224D4595600C191E5 /* UpdateBirthdayViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +30,20 @@
 		5574309424D43CC200C191E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5574309624D43CC200C191E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5574309924D43CC200C191E5 /* BirthdayApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayApp.xcdatamodel; sourceTree = "<group>"; };
-		5574309B24D43CC200C191E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5574309B24D43CC200C191E5 /* BirthdayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayList.swift; sourceTree = "<group>"; };
 		5574309D24D43CC300C191E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557430A024D43CC300C191E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		557430A324D43CC300C191E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		557430A524D43CC300C191E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557430B224D43FE200C191E5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		557430B424D443DB00C191E5 /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		557430B624D446EB00C191E5 /* BirthdayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListViewModel.swift; sourceTree = "<group>"; };
+		557430B824D44DAE00C191E5 /* BirthdayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCell.swift; sourceTree = "<group>"; };
+		557430BA24D458A100C191E5 /* AddNewBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBirthdayViewModel.swift; sourceTree = "<group>"; };
+		557430BC24D458C400C191E5 /* AddNewBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBirthdayView.swift; sourceTree = "<group>"; };
+		557430BE24D4591B00C191E5 /* DismissKeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardHelper.swift; sourceTree = "<group>"; };
+		557430C024D4593D00C191E5 /* UpdateBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayView.swift; sourceTree = "<group>"; };
+		557430C224D4595600C191E5 /* UpdateBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,13 @@
 		5574309324D43CC200C191E5 /* BirthdayApp */ = {
 			isa = PBXGroup;
 			children = (
-				5574309424D43CC200C191E5 /* AppDelegate.swift */,
-				5574309624D43CC200C191E5 /* SceneDelegate.swift */,
-				5574309B24D43CC200C191E5 /* ContentView.swift */,
-				5574309D24D43CC300C191E5 /* Assets.xcassets */,
-				557430A224D43CC300C191E5 /* LaunchScreen.storyboard */,
-				557430A524D43CC300C191E5 /* Info.plist */,
-				5574309824D43CC200C191E5 /* BirthdayApp.xcdatamodeld */,
+				557430B124D43E1F00C191E5 /* Services */,
+				557430B024D43DF900C191E5 /* Utils */,
+				557430AF24D43DF200C191E5 /* Models */,
+				557430AE24D43DE800C191E5 /* ViewModels */,
+				557430AD24D43DE100C191E5 /* Views */,
+				557430AC24D43DD500C191E5 /* CoreDataDB */,
+				557430AB24D43D0800C191E5 /* App */,
 				5574309F24D43CC300C191E5 /* Preview Content */,
 			);
 			path = BirthdayApp;
@@ -76,6 +94,71 @@
 				557430A024D43CC300C191E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		557430AB24D43D0800C191E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5574309424D43CC200C191E5 /* AppDelegate.swift */,
+				5574309624D43CC200C191E5 /* SceneDelegate.swift */,
+				5574309D24D43CC300C191E5 /* Assets.xcassets */,
+				557430A224D43CC300C191E5 /* LaunchScreen.storyboard */,
+				557430A524D43CC300C191E5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		557430AC24D43DD500C191E5 /* CoreDataDB */ = {
+			isa = PBXGroup;
+			children = (
+				5574309824D43CC200C191E5 /* BirthdayApp.xcdatamodeld */,
+			);
+			path = CoreDataDB;
+			sourceTree = "<group>";
+		};
+		557430AD24D43DE100C191E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5574309B24D43CC200C191E5 /* BirthdayList.swift */,
+				557430B824D44DAE00C191E5 /* BirthdayCell.swift */,
+				557430BC24D458C400C191E5 /* AddNewBirthdayView.swift */,
+				557430C024D4593D00C191E5 /* UpdateBirthdayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		557430AE24D43DE800C191E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				557430B424D443DB00C191E5 /* BirthdayViewModel.swift */,
+				557430B624D446EB00C191E5 /* BirthdayListViewModel.swift */,
+				557430BA24D458A100C191E5 /* AddNewBirthdayViewModel.swift */,
+				557430C224D4595600C191E5 /* UpdateBirthdayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		557430AF24D43DF200C191E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		557430B024D43DF900C191E5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				557430BE24D4591B00C191E5 /* DismissKeyboardHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		557430B124D43E1F00C191E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				557430B224D43FE200C191E5 /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557430B724D446EB00C191E5 /* BirthdayListViewModel.swift in Sources */,
+				557430BF24D4591B00C191E5 /* DismissKeyboardHelper.swift in Sources */,
 				5574309524D43CC200C191E5 /* AppDelegate.swift in Sources */,
+				557430B324D43FE200C191E5 /* DataManager.swift in Sources */,
+				557430C324D4595600C191E5 /* UpdateBirthdayViewModel.swift in Sources */,
+				557430C124D4593D00C191E5 /* UpdateBirthdayView.swift in Sources */,
+				557430BB24D458A100C191E5 /* AddNewBirthdayViewModel.swift in Sources */,
+				557430BD24D458C400C191E5 /* AddNewBirthdayView.swift in Sources */,
 				5574309A24D43CC200C191E5 /* BirthdayApp.xcdatamodeld in Sources */,
-				5574309C24D43CC200C191E5 /* ContentView.swift in Sources */,
+				557430B924D44DAE00C191E5 /* BirthdayCell.swift in Sources */,
+				557430B524D443DB00C191E5 /* BirthdayViewModel.swift in Sources */,
+				5574309C24D43CC200C191E5 /* BirthdayList.swift in Sources */,
 				5574309724D43CC200C191E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +384,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BirthdayApp/Preview Content\"";
 				DEVELOPMENT_TEAM = TA2UAPFU92;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BirthdayApp/Info.plist;
+				INFOPLIST_FILE = BirthdayApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +404,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BirthdayApp/Preview Content\"";
 				DEVELOPMENT_TEAM = TA2UAPFU92;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BirthdayApp/Info.plist;
+				INFOPLIST_FILE = BirthdayApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
